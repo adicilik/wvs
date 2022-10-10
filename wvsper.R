@@ -8,7 +8,7 @@
 
 setwd("D:/acp/datasekunder/WVS")
 
-## 2. Mengimport Data dari local
+## 2. Mengimport Data dari local data WVS Indonesia
 
 library(haven)
 wvs7idn <- read_dta("WVS7IDN.dta")
