@@ -4,7 +4,7 @@
 ##### dan inspeksi data secara umum dan keseluruhan             #####  
 #####################################################################
 
-## 1. Setup working directory 
+## 1. Setup working directory  in local desktop
 
 setwd("D:/acp/datasekunder/WVS")
 
@@ -78,7 +78,7 @@ look_for(wvs7idn, "happy")
 
 ## 1. Recode Data
 
-### Recode happy
+### Recode happy Indonesia
 wvs7idn <- mutate(wvs7idn, happy.x = case_when(
   happy  == 1 ~ 4,
   happy  == 2 ~ 3,
