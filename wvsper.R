@@ -4,7 +4,7 @@
 ##### dan inspeksi data secara umum dan keseluruhan             #####  
 #####################################################################
 
-## 1. Setup working directory  in local desktop
+## 1. Setup working directory  in local desktop and github
 
 setwd("D:/acp/datasekunder/WVS")
 
